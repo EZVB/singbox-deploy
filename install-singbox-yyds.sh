@@ -1328,7 +1328,6 @@ cat > /etc/sing-box/config.json <<EOF
       "type": "vless",
       "listen": "::",
       "listen_port": $LISTEN_PORT,
-      "sniff": true,
       "users": [{ "uuid": "$UUID", "flow": "xtls-rprx-vision" }],
       "tls": {
         "enabled": true,
